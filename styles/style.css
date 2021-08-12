@@ -41,14 +41,14 @@ body {
   cursor: pointer;
 }
 .wrapper__msg {
-  flex: 1;
+  flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
 }
 .wrapper__output {
-  flex: 1;
+  flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
