@@ -4,12 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boilerplate</title>
+  <title>Pass The Message</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   
-
+  <main class="wrapper">
+    <form id="messageForm" class="wrapper__form" autocomplete="off">
+      <label for="message">A message you would like to pass</label>
+      <input type="text" name="message" id="message" class="wrapper__form__message">
+      <button type="submit" class="wrapper__form__btn">Deliver</button>
+    </form>
+    <div class="wrapper__msg" id="msg">s</div>
+    <p class="wrapper__output" id="output">s</p>
+  </main>
 
   <script src="scripts/app.js"></script>
 </body>
